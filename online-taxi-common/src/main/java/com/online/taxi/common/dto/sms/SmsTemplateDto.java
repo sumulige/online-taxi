@@ -1,8 +1,8 @@
 package com.online.taxi.common.dto.sms;
 
-import java.util.Map;
-
 import lombok.Data;
+
+import java.util.Map;
 /**
  * @author yueyi2019
  */

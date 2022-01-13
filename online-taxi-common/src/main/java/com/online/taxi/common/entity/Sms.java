@@ -1,8 +1,8 @@
 package com.online.taxi.common.entity;
 
-import java.util.Date;
-
 import lombok.Data;
+
+import java.util.Date;
 /**
  * @author yueyi2019
  */

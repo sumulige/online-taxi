@@ -1,22 +1,13 @@
 package com.online.taxi.driver.service.impl;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
-
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.online.taxi.common.dto.ResponseResult;
 import com.online.taxi.common.dto.sms.SmsSendRequest;
 import com.online.taxi.driver.constant.HttpUrlConstants;
-import com.online.taxi.driver.exception.BusinessException;
-import com.online.taxi.driver.exception.HystrixIgnoreException;
 import com.online.taxi.driver.service.RestTemplateRequestService;
-
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 @Service
 @Slf4j

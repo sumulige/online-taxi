@@ -1,11 +1,11 @@
 package com.online.taxi.driver.service.impl;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-
+import com.online.taxi.common.dto.ResponseResult;
+import com.online.taxi.common.dto.sms.SmsSendRequest;
+import com.online.taxi.common.dto.sms.SmsTemplateDto;
+import com.online.taxi.driver.service.ShortMsgService;
+import lombok.extern.slf4j.Slf4j;
+import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -13,13 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.online.taxi.common.dto.ResponseResult;
-import com.online.taxi.common.dto.sms.SmsSendRequest;
-import com.online.taxi.common.dto.sms.SmsTemplateDto;
-import com.online.taxi.driver.service.ShortMsgService;
-
-import lombok.extern.slf4j.Slf4j;
-import net.sf.json.JSONObject;
+import java.util.*;
 /**
  * @author yueyi2019
  */

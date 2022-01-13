@@ -1,13 +1,12 @@
 package com.online.taxi.app.service.impl;
 
-import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.online.taxi.app.dao.AppVersionUpdateMapper;
 import com.online.taxi.app.service.AppVersionUpdateService;
 import com.online.taxi.common.entity.AppVersionUpdate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class AppVersionUpdateServiceImpl implements AppVersionUpdateService {

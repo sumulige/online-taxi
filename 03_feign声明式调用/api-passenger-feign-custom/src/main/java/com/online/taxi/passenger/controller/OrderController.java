@@ -1,10 +1,11 @@
 package com.online.taxi.passenger.controller;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import com.online.taxi.common.dto.ResponseResult;
+import com.online.taxi.common.dto.order.ForecastRequest;
+import com.online.taxi.common.dto.order.ForecastResponse;
+import com.online.taxi.passenger.feign.ServiceForecastWithoutEureka;
+import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -14,17 +15,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-
-import com.online.taxi.common.dto.ResponseResult;
-import com.online.taxi.common.dto.order.ForecastRequest;
-import com.online.taxi.common.dto.order.ForecastResponse;
-import com.online.taxi.passenger.feign.ServiceForecast;
-import com.online.taxi.passenger.feign.ServiceForecastWithoutEureka;
-
-import feign.Feign;
-import feign.Feign.Builder;
-import feign.codec.Encoder;
-import net.sf.json.JSONObject;
 
 /**
  * 

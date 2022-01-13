@@ -1,11 +1,10 @@
 package com.online.taxi.common.dto;
 
-import java.io.Serializable;
-
 import com.online.taxi.common.constant.CommonStatusEnum;
-
 import lombok.Data;
 import lombok.experimental.Accessors;
+
+import java.io.Serializable;
 
 /**
  * 通用返回值处理类

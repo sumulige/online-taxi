@@ -1,11 +1,10 @@
 package com.online.taxi.order.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.online.taxi.common.entity.Order;
 import com.online.taxi.order.dao.OrderMapper;
 import com.online.taxi.order.service.OrderService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 @Service
 public class OrderServiceImpl implements OrderService {

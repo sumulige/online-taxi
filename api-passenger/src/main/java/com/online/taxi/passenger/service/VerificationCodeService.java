@@ -1,6 +1,5 @@
 package com.online.taxi.passenger.service;
 
-import com.online.taxi.common.dto.ResponseResult;
 /**
  * 	验证码服务
  * @author yueyi2019

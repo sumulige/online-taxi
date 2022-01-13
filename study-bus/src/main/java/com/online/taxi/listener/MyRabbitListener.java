@@ -1,14 +1,13 @@
 package com.online.taxi.listener;
 
-import java.io.IOException;
-
+import com.rabbitmq.client.Channel;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageProperties;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
-import com.rabbitmq.client.Channel;
+import java.io.IOException;
 
 
 @Component

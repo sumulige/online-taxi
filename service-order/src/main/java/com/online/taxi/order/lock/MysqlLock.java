@@ -1,19 +1,14 @@
 package com.online.taxi.order.lock;
 
+import com.online.taxi.common.entity.OrderLock;
+import com.online.taxi.order.dao.OrderLockMapper;
+import lombok.Data;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Async;
-import org.springframework.stereotype.Service;
-
-import com.online.taxi.common.entity.OrderLock;
-import com.online.taxi.order.dao.OrderLockMapper;
-
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Service
 @Data

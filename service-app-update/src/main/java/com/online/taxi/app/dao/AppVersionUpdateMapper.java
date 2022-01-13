@@ -1,10 +1,9 @@
 package com.online.taxi.app.dao;
 
-import java.util.List;
-
+import com.online.taxi.common.entity.AppVersionUpdate;
 import org.apache.ibatis.annotations.Mapper;
 
-import com.online.taxi.common.entity.AppVersionUpdate;
+import java.util.List;
 @Mapper
 public interface AppVersionUpdateMapper {
 	

@@ -1,6 +1,5 @@
 package com.online.taxi.verificationcode.controller;
 
-import com.netflix.discovery.converters.Auto;
 import com.online.taxi.verificationcode.component.GitConfig;
 import com.online.taxi.verificationcode.service.ConfigService;
 import org.springframework.beans.factory.annotation.Autowired;

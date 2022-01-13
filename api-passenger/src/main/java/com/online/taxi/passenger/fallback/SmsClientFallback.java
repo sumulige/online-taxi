@@ -1,15 +1,9 @@
 package com.online.taxi.passenger.fallback;
 
-import java.util.concurrent.TimeUnit;
-
-import org.apache.commons.lang.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.stereotype.Component;
-
 import com.online.taxi.common.dto.ResponseResult;
 import com.online.taxi.common.dto.sms.SmsSendRequest;
 import com.online.taxi.passenger.feign.SmsClient;
+import org.springframework.stereotype.Component;
 /**
  * @author yueyi2019
  */

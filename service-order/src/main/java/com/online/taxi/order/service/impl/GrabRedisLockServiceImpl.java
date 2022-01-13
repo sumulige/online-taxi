@@ -1,18 +1,13 @@
 package com.online.taxi.order.service.impl;
 
-import java.util.concurrent.TimeUnit;
-
+import com.online.taxi.common.dto.ResponseResult;
+import com.online.taxi.order.service.GrabService;
+import com.online.taxi.order.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
-import com.online.taxi.common.dto.ResponseResult;
-import com.online.taxi.common.entity.OrderLock;
-import com.online.taxi.order.lock.MysqlLock;
-import com.online.taxi.order.lock.RedisLock;
-import com.online.taxi.order.service.GrabService;
-import com.online.taxi.order.service.OrderService;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author yueyi2019

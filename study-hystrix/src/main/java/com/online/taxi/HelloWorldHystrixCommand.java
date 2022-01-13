@@ -1,10 +1,10 @@
 package com.online.taxi;
 
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
-
 import com.netflix.hystrix.HystrixCommand;
 import com.netflix.hystrix.HystrixCommandGroupKey;
+
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 /**
  * 	只需简单继承`HystrixCommand/HystrixObservableCommand`并重写`run()/construct()`，
  * 	然后调用程序实例化此class并执行`execute()/queue()/observe()/toObservable()`

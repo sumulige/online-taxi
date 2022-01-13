@@ -1,11 +1,9 @@
 package com.online.taxi.passenger.feign.config;
 
+import com.online.taxi.passenger.annotation.ExcudeFeignConfig;
+import feign.auth.BasicAuthRequestInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import com.online.taxi.passenger.annotation.ExcudeFeignConfig;
-
-import feign.auth.BasicAuthRequestInterceptor;
 @ExcudeFeignConfig
 @Configuration
 public class FeignAuthConfiguration {

@@ -1,10 +1,7 @@
 package com.online.taxi.verificationcode.service.impl;
 
 import com.online.taxi.verificationcode.service.ConfigService;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
-import java.util.Random;
 
 /**
  * @author yueyi2019

@@ -1,24 +1,18 @@
 package com.online.taxi.passenger.controller;
 
-import java.util.List;
-
-import javax.servlet.http.HttpServletRequest;
-
+import com.online.taxi.common.dto.ResponseResult;
+import net.sf.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.netflix.eureka.CloudEurekaClient;
-import org.springframework.context.annotation.Bean;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.online.taxi.common.dto.ResponseResult;
-
-import net.sf.json.JSONObject;
-
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
+import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 /**
  * @author yueyi2019
  */

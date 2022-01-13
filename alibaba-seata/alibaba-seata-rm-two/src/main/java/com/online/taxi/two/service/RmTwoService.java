@@ -1,10 +1,9 @@
 package com.online.taxi.two.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
 import com.online.taxi.two.entity.Two;
 import com.online.taxi.two.mapper.TwoMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  * @author yueyi2019

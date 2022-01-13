@@ -1,18 +1,16 @@
 package com.online.taxi.app.controller;
 
-import java.util.List;
-
+import com.online.taxi.app.service.AppVersionUpdateService;
+import com.online.taxi.common.dto.ResponseResult;
+import com.online.taxi.common.dto.appUpdate.AppUpdateVersionRequest;
+import com.online.taxi.common.entity.AppVersionUpdate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.online.taxi.app.service.AppVersionUpdateService;
-import com.online.taxi.common.dto.ResponseResult;
-import com.online.taxi.common.dto.appUpdate.AppUpdateVersionRequest;
-import com.online.taxi.common.entity.AppVersionUpdate;
+import java.util.List;
 
 @RestController
 @RequestMapping("/app-version")

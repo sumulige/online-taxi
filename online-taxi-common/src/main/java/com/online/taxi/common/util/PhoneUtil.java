@@ -1,9 +1,9 @@
 package com.online.taxi.common.util;
 
+import org.apache.commons.lang.StringUtils;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import org.apache.commons.lang.StringUtils;
 
 /**
  * 	手机号工具类

@@ -1,9 +1,8 @@
 package com.online.taxi.passenger.service.impl;
 
-import org.springframework.stereotype.Service;
-
 import com.online.taxi.common.dto.order.ForecastRequest;
 import com.online.taxi.passenger.service.OrderService;
+import org.springframework.stereotype.Service;
 /**
  * 
  * @author yueyi2019

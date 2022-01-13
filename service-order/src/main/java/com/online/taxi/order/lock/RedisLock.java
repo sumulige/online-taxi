@@ -1,24 +1,19 @@
 package com.online.taxi.order.lock;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-
-import javax.annotation.Resource;
-
-import org.springframework.beans.factory.annotation.Autowired;
+import com.online.taxi.common.entity.OrderLock;
+import lombok.Data;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.scripting.support.ResourceScriptSource;
 import org.springframework.stereotype.Service;
 
-import com.online.taxi.common.entity.OrderLock;
-import com.online.taxi.order.dao.OrderLockMapper;
-
-import lombok.Data;
+import javax.annotation.Resource;
+import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
 /**
  * 例子中暂时不用
  * @author yueyi2019

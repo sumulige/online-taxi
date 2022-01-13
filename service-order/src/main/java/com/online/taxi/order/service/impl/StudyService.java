@@ -1,9 +1,8 @@
 package com.online.taxi.order.service.impl;
 
-import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.data.redis.core.RedisTemplate;
-
 import java.util.UUID;
+
+//import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  * @author yueyi2019

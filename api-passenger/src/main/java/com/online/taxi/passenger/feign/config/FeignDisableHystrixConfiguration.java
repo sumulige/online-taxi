@@ -1,12 +1,10 @@
 package com.online.taxi.passenger.feign.config;
 
+import com.online.taxi.passenger.annotation.ExcudeFeignConfig;
+import feign.Feign;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
-
-import com.online.taxi.passenger.annotation.ExcudeFeignConfig;
-
-import feign.Feign;
 
 @Configuration
 @ExcudeFeignConfig

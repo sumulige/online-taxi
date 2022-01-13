@@ -1,9 +1,9 @@
 package com.online.taxi.common.dto.sms;
 
+import lombok.Data;
+
 import java.util.Arrays;
 import java.util.List;
-
-import lombok.Data;
 /**
  * @author yueyi2019
  */

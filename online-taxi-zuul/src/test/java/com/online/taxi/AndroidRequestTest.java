@@ -1,19 +1,13 @@
 package com.online.taxi;
 
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.Map;
-
 import org.apache.commons.codec.digest.DigestUtils;
-import org.apache.commons.lang.StringUtils;
 import org.json.JSONException;
-import org.json.JSONObject;
 import org.junit.Test;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
-import org.springframework.util.LinkedMultiValueMap;
-import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.Calendar;
 
 public class AndroidRequestTest {
 	

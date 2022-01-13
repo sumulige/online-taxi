@@ -1,6 +1,5 @@
 package com.online.taxi.passenger.user.controller;
 
-import com.netflix.discovery.converters.Auto;
 import com.online.taxi.common.constant.IdentityConstant;
 import com.online.taxi.common.dto.ResponseResult;
 import com.online.taxi.common.dto.passengeruser.LoginRequest;

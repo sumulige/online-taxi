@@ -1,14 +1,10 @@
 package com.online.taxi.one.service;
 
+import com.online.taxi.one.entity.One;
+import com.online.taxi.one.mapper.OneMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-
-import com.online.taxi.common.dto.sms.SmsSendRequest;
-import com.online.taxi.one.entity.One;
-import com.online.taxi.one.mapper.OneMapper;
-
-import io.seata.spring.annotation.GlobalTransactional;
 
 /**
  * @author yueyi2019

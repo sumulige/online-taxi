@@ -4,12 +4,10 @@ import com.online.taxi.common.constant.RedisKeyConstant;
 import com.online.taxi.common.dto.ResponseResult;
 import com.online.taxi.order.service.GrabService;
 import com.online.taxi.order.service.OrderService;
-
 import org.redisson.RedissonRedLock;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,9 +1,8 @@
 package com.online.taxi.one.mapper;
 
-import org.apache.ibatis.annotations.Mapper;
-
 import com.online.taxi.common.entity.Sms;
 import com.online.taxi.one.entity.One;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * @author yueyi2019
